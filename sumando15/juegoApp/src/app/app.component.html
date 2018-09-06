@@ -1,0 +1,32 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Bienvenido a  {{ title }}!
+  </h1>
+  <p>
+    Utilizando los números del 1 al 9, incluir cada uno en una casilla de forma tal que la suma de ellos
+    tanto en sentido horizontal, como vertical y en diagonal sea igual a 15.
+  </p>
+
+  <div  id="app-imagen" class= "imagen"  ng-show="FormVisibility" [hidden]="ocultarVerificar" >
+   
+   
+    <app-imagen></app-imagen> 
+
+ 
+
+  </div>
+  
+  
+  <br/><br/>
+
+<button class="btn"  ng-click="ShowForm()" ng-hide="FormVisibility"> JUGAR </button>   
+<!-- <router-outlet></router-outlet>-->
+
+ <app-inicio></app-inicio> 
+
+
+ <!-- Hide: <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide"><br />
+<div class="check-element funky-show-hide" ng-hide="checked">
+  I hide when your checkbox is checked.
+</div>-->
